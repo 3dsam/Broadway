@@ -1,16 +1,20 @@
+body {
+  text-align: center;
+}
 h1 {
   font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
   color: White;
 }
-.frame , #inline_list {
+.frame , #inline_list  {
   font-family: Helvetica;
   font-size: 18px;
   color: White;
+  list-style-type: none;
 }
 .header {
-  background-image: url("resources/images/the-flatiron-building.png");
+  background-image: url("../../resources/images/the-flatiron-building.png");
 }
 h2 {
   font-family: Helvetica;
@@ -31,7 +35,7 @@ h3 {
   font-size: 23px;
   font-weight: bold;
   color: White;
-  background-image: url("resources/images/the-flatiron-building.png");
+  background-image: url("../../resources/images/the-flatiron-building.png");
 }
 #copy {
   font-family: Helvetica;
@@ -42,6 +46,6 @@ h3 {
 footer {
   background-color: dimgray;
 }
-#inline_list {
+footer #inline_list li  {
   display: inline;
 }
